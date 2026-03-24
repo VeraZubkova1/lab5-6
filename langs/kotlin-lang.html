@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kotlin - Язык программирования</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .page-header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body> 
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Kotlin</h1>
+                    <p class="lead">Современный язык программирования</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../languages.html">Языки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="container my-4">
+        <div class="row">
+            <div class="col">
+               
+                <div class="my-3">
+                    <a href="../languages.html" class="btn btn-outline-secondary me-2">Назад к списку</a>
+                    <a href="../languages.html" class="btn btn-primary">Назад</a>
+                </div>
+
+                <h2>Краткое описание</h2>
+                <p>Kotlin — это современный, статически типизированный язык программирования, который работает на Java Virtual Machine (JVM). Он полностью совместим с Java и является официальным языком для разработки под Android.</p>
+                <p>Основные особенности Kotlin:</p>
+                <ul>
+                    <li>Лаконичный и безопасный синтаксис</li>
+                    <li>Полная совместимость с Java</li>
+                    <li>Поддержка функционального программирования</li>
+                    <li>Официальный язык для Android-разработки</li>
+                </ul>
+
+                <h2 class="mt-4">Пример исходного кода</h2>
+                <pre><code>fun main() {
+    println("Привет, мир!")
+    
+    val name = "Kotlin"
+    var version = 1.5
+    
+    fun greet(user: String) {
+        println("Привет, $user!")
+    }
+    
+    greet("студент")
+    
+    val numbers = listOf(1, 2, 3, 4, 5)
+    val doubled = numbers.map { it * 2 }
+    println(doubled) // [2, 4, 6, 8, 10]
+}</code></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
